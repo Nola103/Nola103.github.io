@@ -1,5 +1,6 @@
 body {
-    background: #a617bc;
+    background-image:url('vjmurderdrones.jpg');
+    background-size: cover;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
