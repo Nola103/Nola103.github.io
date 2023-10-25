@@ -76,8 +76,8 @@ const cannonHeight = 80;
 let projectiles = [];
 const defaultProjectileWidth = 24;
 const defaultProjectileHeight = defaultProjectileWidth;
-const collectableWidth = 40;
-const collectableHeight = 40;
+const collectableWidth = 70;
+const collectableHeight = 70;
 let collectables = [];
 
 // canvas and context variables; must be initialized later
@@ -92,9 +92,9 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
-  grace: { image: "images/collectables/grace-head.png" },
+  Rebecca: { image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/225549e2-e59c-49ed-89c2-566c22098b3e/dftyq9e-9e4be601-e6e9-4535-aa76-3b436875be6f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyNTU0OWUyLWU1OWMtNDllZC04OWMyLTU2NmMyMjA5OGIzZVwvZGZ0eXE5ZS05ZTRiZTYwMS1lNmU5LTQ1MzUtYWE3Ni0zYjQzNjg3NWJlNmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wg1-wNBinadyQQLHBgCsOrhoo-jbXDORCX4uQ4NRnIk" },
+  Cyn: { image: "https://i.pinimg.com/736x/c5/c6/ff/c5c6ff92616d5cc7a735e202566be5d9.jpg" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
+  Lizzy: { image: "https://i.imgflip.com/723rkn.png" },
 };
