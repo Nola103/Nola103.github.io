@@ -24,11 +24,12 @@ var init = function (window) {
         var circles = []
 
         // TODO 2 : Create a function that draws a circle 
-        circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+        function drawCircle()
+       { circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
         physikz.addRandomVelocity(circle, canvas);
         view.addChild(circle);
         circles.push(circle);
-
+        physikz.addRandomVelocity(circle, canvas, 10, 10);}
 
         // TODO 3 / 7 : Call the drawCircle() function 
         for (var i = 0; i < 100; i++) {
